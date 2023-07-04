@@ -1,0 +1,587 @@
+body{
+    margin: 0;
+    background-color: #1f2039;
+    font-family: 'Manrope', sans-serif;
+}
+
+
+
+header{
+    background-color:white;
+    padding: 22px 50px;
+}
+
+header nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+header img{
+    width: 82px;
+}
+
+
+.lien-page a{
+    text-decoration: none;
+    color: #544f4f;
+    font-size: 17px;
+    margin-left: 35px;
+    font-family: sans-serif;
+}
+.lien-page a:hover{
+    text-decoration: underline;
+}
+
+/* ***************Corps du page****************** */
+/* ***********************************Accueil******************************************* */
+/* robbie-introduction */
+#robbie-introduction img{
+    width: 100%;
+}
+
+#robbie-introduction{
+    display: flex;
+    align-items: flex-start;
+    max-width: 74%;
+    /* margin: 0 95px; */
+    padding: 80px;
+    margin: auto;
+}
+.robbie-description h1{
+    font-size: 60px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    color: #a5b4fc;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+.robbie-description p{
+    font-size: 17px;
+    color: #f9f8ff;
+    margin-bottom: 50px;
+}
+.robbie-description{
+    padding-right: 80px;
+}
+.robbie-description em{
+    font-style: normal;
+    color: #a5b4fc;
+}
+
+.robbie-description a{
+    padding: 20px;
+    background-color: #a299cf;
+    color: white;
+    font-size: 16px;
+    border-radius: 50px;
+    text-decoration: none;
+}
+.robbie-description a:hover{
+    background: linear-gradient(#696484, #8788ba);
+}
+/* dernier projet */
+#section-projet{
+    padding: 80px;
+    background-color:white;
+}
+#section-projet h1{
+    text-align: center;
+    font-size: 24px;
+    margin-top: 0px;
+    margin-bottom: 80px;
+}
+
+.photo-projet{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+    justify-content: center;
+    margin-left: 90px;
+    margin-right: 90px;
+}
+
+.photo-projet img{
+    width: 100%;
+    height: 100%;
+}
+/***** section-form************ */
+#section-form{
+    padding: 80px;
+}
+#section-form h1{
+    text-align: center;
+    color:  #a5b4fc;
+    margin-bottom: 50px;
+    font-size: 25px;
+    margin-top: 0;
+}
+
+/* .aide-projet */
+.aide-projet{
+    max-width: 85%;
+    margin: auto;
+}
+.aide-projet form{
+    max-width: 100%!important;
+    margin: auto;
+    color: white;
+    font-size: 17px;
+}
+.name-email-form{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+
+}
+.input-form{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.input-form input{
+    width: 100%;
+    margin-top: 12px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+/* .textarea-form  */
+.textarea-form textarea{
+    width: 100%;
+    margin-top: 12px;
+    border-radius: 5px;
+}
+
+.button-form{
+    text-align: center;
+    margin-top: 30px;
+}
+.button-form input{
+    padding: 20px 68px;
+    border-radius: 50px;
+    font-size: 13px;
+    background-color: #a798e3;
+    color: white;
+    border: none;
+}
+.button-form input:hover{
+    background: linear-gradient(#696484, #8788ba);
+}
+
+/* *************************************A propos***************************************** */
+/************ sectio à propos */
+#section-a-propos {
+    padding: 80px;
+}
+
+#section-a-propos h1{
+    text-align: center;
+    color: #a5b4fc;
+    font-size: 60px;
+    font-weight: 100;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+.travail-robbie{
+    width: 50%;
+    margin: auto;
+    border-right: #8e86b5 solid 1px;
+    border-bottom: #8e86b5 solid 1px;
+    padding: 50px;
+}
+
+.travail-robbie p{
+    font-size: 18px;
+    color: #f9f8ff;
+    margin: 0;
+}
+.travail-robbie h4{
+    font-size: 26px;
+    color: #f9f8ff;
+    text-align: center;
+    margin-bottom: 80px;
+    margin-top: 30px;
+}
+.travail-robbie ul{
+    font-size: 18px;
+    color: #f9f8ff;
+}
+
+
+.button-lien a{
+    background-color: #a59dbd;
+    padding: 24px 30px;
+    text-decoration: none;
+    color: white;
+    border-radius: 50px;
+    font-size: 15px;
+}
+.button-lien a:hover{
+    background-color: rgb(82, 76, 109);
+}
+.button-lien{
+    text-align: center;
+    margin-top: 100px;
+}
+
+/* section tarif */
+#section-tarif{
+    padding: 80px;
+}
+#section-tarif h2{
+    text-align: center;
+    color: #f9f8ff;
+    margin-bottom: 80px;
+    font-size: 26px;
+}
+.tarif-tableau{
+    color: #f9f8ff;
+}
+
+.tarif-tableau table{
+    border-collapse: collapse;
+    width: 100%;
+} 
+.tarif-tableau td, th{
+    border: 1px #9a9fdd  solid;
+    text-align: center;
+}
+.tarif-tableau th{
+    font-size: 16px;
+    padding: 15px ;
+}
+.tarif-tableau td{
+    font-size: 16px;
+    padding: 80px;
+}
+
+/* ****************************************Portfolio*********************************************** */
+#grand-titre{
+    padding: 80px;
+    background-color: #1f2039
+}
+#grand-titre h1{
+    font-size: 57px;
+    font-weight: normal;
+    margin: 0;
+    color: #a5b4fc;
+    font-family: 'Montserrat', sans-serif;
+}
+/* ***************section paysages****************** */
+#section-paysages{
+    padding: 80px;
+    padding-bottom: 0;
+    background-color: white;
+}
+
+#section-paysages h2{
+    margin-bottom: 80px;
+    margin-top: 0;
+    color: rgb(49, 51, 51);
+    font-size: 25px;
+}
+
+.photos-paysages img{
+    width: 100%;
+    height: 100%;
+}
+.photos-paysages{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 370px 370px 370px;
+    gap: 20px;
+}
+
+/* photos hover */
+.photos-hover{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000a6;
+    visibility: hidden;
+}
+.photo-lien{
+    position: relative;
+}
+
+.photo-lien:hover .photos-hover{
+    display: flex;
+    visibility: visible;
+}
+
+.photo-hover-a{
+    font-size: 30px;
+    color: white;
+}
+
+/* *************section portrait********************* */
+#section-portraits{
+    padding: 80px;
+    padding-top: 0;
+    background-color: white;
+}
+
+.photos-portrait img{
+    width: 100%;
+    height: 100%;
+}
+
+.photos-portrait{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 370px 370px;
+    gap: 20px;
+}
+
+#section-portraits h2{
+    font-size: 25px;
+    margin-bottom: 80px;
+    margin-top: 0;
+    color: #242424;
+}
+
+
+/* *************Footer******************** */
+footer{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    height: 90px;
+    align-items: center;
+    padding: 0 50px;
+}
+
+.footer-logo{
+    margin-left: 30px;
+}
+
+.twitter-instagram-lien{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.footer-logo-insta{
+    padding-left: 35px;
+}
+
+
+/* **************Page responsive*********************** */
+@media only screen and (max-width: 1116px){
+    /* ********accueil********** */
+    #robbie-introduction{
+        margin: 0;
+        max-width: 100%;
+    }
+
+    /* #section-projet */
+    #section-projet{
+        padding: 80px 44px;
+    }
+    .photo-projet{
+        margin: 0;
+    }
+    /* #section-form */
+    #section-form .aide-projet {
+        max-width: 100%;
+    }
+
+    /* ***************a propos**************** */
+
+    /* **************portafolio************* */
+
+}
+
+@media only screen and (max-width: 992px){
+     /* ********accueil********** */
+    header{
+        text-align: center;
+    }
+    header nav{
+        display: inline-block;
+        text-align: center;
+    }
+
+    header .lien-page{
+        margin-top: 20px;
+    }
+    /* #robbie-introduction */
+    #robbie-introduction{
+        display: inline-flex;
+        text-align: center;
+        flex-direction: column-reverse;
+        padding: 50px 20px;
+    }
+    .robbie-description{
+        padding-right: 0;
+    }
+    .robbie-description h1{
+        font-size: 35px;
+    }
+    #robbie-introduction img{
+        margin-bottom: 20px;
+    }
+    .robbie-description p{
+        margin-top: 0;
+    }
+    /* .photo-projet */
+    .photo-projet{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    /* #section-form */
+    #section-form {
+        padding: 50px 20px;
+    }
+    .name-email-form {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    
+    /* ***************a propos**************** */
+    /* #section-a-propos */
+    #section-a-propos{
+        padding: 50px 20px;
+    }
+    #section-a-propos h1{
+        font-size: 35px;
+    }
+
+
+    #section-tarif{
+        display: none;
+    }
+    /* **************portafolio************* */
+    .photos-paysages{
+        grid-template-rows: 300px 300px 300px;
+    }
+
+    .photos-portrait{
+        grid-template-rows: 300px 300px;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .photos-paysages{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 300px 300px 300px 300px 300px;
+    }
+
+    #section-paysages h2{
+        margin-bottom: 40px;
+    }
+    #section-paysages{
+        padding: 40px;
+    }
+    #section-portraits{
+        padding: 40px;
+    }
+
+    .photos-portrait{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 300px 300px 300px;
+    }    
+    #section-portraits h2{
+        margin-bottom: 40px;
+    }
+
+    #grand-titre {
+        padding: 40px;
+    }
+    #grand-titre h1{
+        font-size: 45px;
+    }
+
+    header{
+        padding: 22px 15px;
+    }
+}
+
+@media only screen and (max-width: 760px){
+    /* **********accueil************** */
+    /* #section-projet */
+    #section-projet{
+        padding: 20px;
+    }
+    .photo-projet{
+        grid-template-columns: 1fr;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    /* ***********portafolio************* */
+    .photos-paysages{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+    }
+
+    #section-paysages h2{
+        margin-bottom: 20px;
+    }
+    #section-paysages{
+        padding: 20px;
+    }
+    #section-portraits{
+        padding: 20px;
+    }
+
+    .photos-portrait{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    } 
+    #section-portraits h2{
+        margin-bottom: 20px;
+    }            
+    #grand-titre {
+        padding: 20px;
+    }
+}
+
+@media only screen and (max-width: 420px){
+    header{
+        padding: 22px 0;
+    }
+    .lien-page a {
+        margin-left: 20px;
+    }
+    /* #robbie-introduction* */
+    .robbie-description a{
+        font-size: 13px;
+        padding: 16px;
+    }
+
+    /* #section-form*/
+    .input-form input{
+
+    }
+    .name-email-form{
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 360px){
+    footer {
+        padding: 0 20px;
+        height: 112px;
+        justify-content: space-around;
+    }
+    footer .twitter-instagram-lien{
+        flex-direction: column;
+        
+    }
+    .twitter-instagram-lien a img{
+        padding: 0;
+    }
+}
+
+
