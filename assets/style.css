@@ -4,6 +4,10 @@ body{
     font-family: 'Manrope', sans-serif;
 }
 
+@font-face{
+    font-family: 'Montserrat';
+    src: url(../assets/font/montserrat/static/Montserrat-Medium.ttf);
+}
 
 
 header{
@@ -18,11 +22,9 @@ header nav{
     justify-content: space-between;
 }
 
-
 header img{
     width: 82px;
 }
-
 
 .lien-page a{
     text-decoration: none;
@@ -31,13 +33,11 @@ header img{
     margin-left: 35px;
     font-family: sans-serif;
 }
+
 .lien-page a:hover{
     text-decoration: underline;
 }
 
-/* ***************Corps du page****************** */
-/* ***********************************Accueil******************************************* */
-/* robbie-introduction */
 #robbie-introduction img{
     width: 100%;
 }
@@ -46,26 +46,29 @@ header img{
     display: flex;
     align-items: flex-start;
     max-width: 74%;
-    /* margin: 0 95px; */
     padding: 80px;
     margin: auto;
 }
+
 .robbie-description h1{
-    font-size: 60px;
+    font-size: 58px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 100;
     color: #a5b4fc;
     margin-top: 0;
     margin-bottom: 20px;
 }
+
 .robbie-description p{
     font-size: 17px;
     color: #f9f8ff;
     margin-bottom: 50px;
 }
+
 .robbie-description{
     padding-right: 80px;
 }
+
 .robbie-description em{
     font-style: normal;
     color: #a5b4fc;
@@ -79,10 +82,11 @@ header img{
     border-radius: 50px;
     text-decoration: none;
 }
+
 .robbie-description a:hover{
     background: linear-gradient(#696484, #8788ba);
 }
-/* dernier projet */
+
 #section-projet{
     padding: 80px;
     background-color:white;
@@ -107,10 +111,11 @@ header img{
     width: 100%;
     height: 100%;
 }
-/***** section-form************ */
+
 #section-form{
     padding: 80px;
 }
+
 #section-form h1{
     text-align: center;
     color:  #a5b4fc;
@@ -119,23 +124,25 @@ header img{
     margin-top: 0;
 }
 
-/* .aide-projet */
 .aide-projet{
     max-width: 85%;
     margin: auto;
 }
+
 .aide-projet form{
     max-width: 100%!important;
     margin: auto;
     color: white;
     font-size: 17px;
 }
+
 .name-email-form{
     display: flex;
     flex-direction: row;
     gap: 30px;
 
 }
+
 .input-form{
     flex: 1;
     display: flex;
@@ -150,7 +157,6 @@ header img{
     border-radius: 5px;
 }
 
-/* .textarea-form  */
 .textarea-form textarea{
     width: 100%;
     margin-top: 12px;
@@ -161,6 +167,7 @@ header img{
     text-align: center;
     margin-top: 30px;
 }
+
 .button-form input{
     padding: 20px 68px;
     border-radius: 50px;
@@ -169,12 +176,12 @@ header img{
     color: white;
     border: none;
 }
+
 .button-form input:hover{
     background: linear-gradient(#696484, #8788ba);
 }
 
 /* *************************************A propos***************************************** */
-/************ sectio à propos */
 #section-a-propos {
     padding: 80px;
 }
@@ -266,14 +273,15 @@ header img{
     padding: 80px;
     background-color: #1f2039
 }
+
 #grand-titre h1{
-    font-size: 57px;
+    font-size: 56px;
     font-weight: normal;
     margin: 0;
     color: #a5b4fc;
     font-family: 'Montserrat', sans-serif;
 }
-/* ***************section paysages****************** */
+
 #section-paysages{
     padding: 80px;
     padding-bottom: 0;
@@ -291,6 +299,7 @@ header img{
     width: 100%;
     height: 100%;
 }
+
 .photos-paysages{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -298,7 +307,6 @@ header img{
     gap: 20px;
 }
 
-/* photos hover */
 .photos-hover{
     position: absolute;
     height: 100%;
@@ -310,6 +318,7 @@ header img{
     background-color: #000000a6;
     visibility: hidden;
 }
+
 .photo-lien{
     position: relative;
 }
@@ -324,7 +333,6 @@ header img{
     color: white;
 }
 
-/* *************section portrait********************* */
 #section-portraits{
     padding: 80px;
     padding-top: 0;
@@ -351,7 +359,6 @@ header img{
 }
 
 
-/* *************Footer******************** */
 footer{
     background-color: white;
     display: flex;
@@ -370,12 +377,11 @@ footer{
     align-items: center;
     flex-direction: row;
 }
+
 .footer-logo-insta{
     padding-left: 35px;
 }
 
-
-/* **************Page responsive*********************** */
 @media only screen and (max-width: 1116px){
     /* ********accueil********** */
     #robbie-introduction{
@@ -383,29 +389,23 @@ footer{
         max-width: 100%;
     }
 
-    /* #section-projet */
     #section-projet{
         padding: 80px 44px;
     }
     .photo-projet{
         margin: 0;
     }
-    /* #section-form */
+
     #section-form .aide-projet {
         max-width: 100%;
     }
-
-    /* ***************a propos**************** */
-
-    /* **************portafolio************* */
-
 }
 
 @media only screen and (max-width: 992px){
-     /* ********accueil********** */
     header{
         text-align: center;
     }
+    
     header nav{
         display: inline-block;
         text-align: center;
@@ -414,31 +414,34 @@ footer{
     header .lien-page{
         margin-top: 20px;
     }
-    /* #robbie-introduction */
+
     #robbie-introduction{
         display: inline-flex;
         text-align: center;
         flex-direction: column-reverse;
         padding: 50px 20px;
     }
+    
     .robbie-description{
         padding-right: 0;
     }
+
     .robbie-description h1{
         font-size: 35px;
     }
+
     #robbie-introduction img{
         margin-bottom: 20px;
     }
+
     .robbie-description p{
         margin-top: 0;
     }
-    /* .photo-projet */
+
     .photo-projet{
         grid-template-columns: 1fr 1fr;
     }
 
-    /* #section-form */
     #section-form {
         padding: 50px 20px;
     }
@@ -449,14 +452,13 @@ footer{
 
     
     /* ***************a propos**************** */
-    /* #section-a-propos */
     #section-a-propos{
         padding: 50px 20px;
     }
+
     #section-a-propos h1{
         font-size: 35px;
     }
-
 
     #section-tarif{
         display: none;
@@ -480,9 +482,11 @@ footer{
     #section-paysages h2{
         margin-bottom: 40px;
     }
+
     #section-paysages{
         padding: 40px;
     }
+
     #section-portraits{
         padding: 40px;
     }
@@ -491,6 +495,7 @@ footer{
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 300px 300px 300px;
     }    
+
     #section-portraits h2{
         margin-bottom: 40px;
     }
@@ -498,6 +503,7 @@ footer{
     #grand-titre {
         padding: 40px;
     }
+
     #grand-titre h1{
         font-size: 45px;
     }
@@ -509,10 +515,10 @@ footer{
 
 @media only screen and (max-width: 760px){
     /* **********accueil************** */
-    /* #section-projet */
     #section-projet{
         padding: 20px;
     }
+
     .photo-projet{
         grid-template-columns: 1fr;
     }
@@ -528,9 +534,11 @@ footer{
     #section-paysages h2{
         margin-bottom: 20px;
     }
+
     #section-paysages{
         padding: 20px;
     }
+
     #section-portraits{
         padding: 20px;
     }
@@ -539,9 +547,11 @@ footer{
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
     } 
+
     #section-portraits h2{
         margin-bottom: 20px;
     }            
+
     #grand-titre {
         padding: 20px;
     }
@@ -551,19 +561,16 @@ footer{
     header{
         padding: 22px 0;
     }
+
     .lien-page a {
         margin-left: 20px;
     }
-    /* #robbie-introduction* */
+    
     .robbie-description a{
         font-size: 13px;
         padding: 16px;
     }
 
-    /* #section-form*/
-    .input-form input{
-
-    }
     .name-email-form{
         flex-direction: column;
     }
@@ -575,10 +582,12 @@ footer{
         height: 112px;
         justify-content: space-around;
     }
+
     footer .twitter-instagram-lien{
         flex-direction: column;
         
     }
+
     .twitter-instagram-lien a img{
         padding: 0;
     }
